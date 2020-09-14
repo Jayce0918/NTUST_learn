@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 {%load static%}
 <html lang="en">
-  <head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> HTML5+CSS3 靜態網頁建置 A-Z</title>
-    
-    
-    <link rel="stylesheet" href="{% static "fonts/icomoon/style.css" %}">
-    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/jquery-ui.css" %}">
-    <link rel="stylesheet" href="{% static "css/owl.carousel.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/owl.theme.default.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/owl.theme.default.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/jquery.fancybox.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/bootstrap-datepicker.css" %}">
-    <link rel="stylesheet" href="{% static "fonts/flaticon/font/flaticon.css" %}">
-    <link rel="stylesheet" href="{% static "css/aos.css" %}">
-    <link rel="stylesheet" href="{% static "css/style.css" %}">
-    
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> HTML5+CSS3 靜態網頁建置 A-Z</title>
+
+
+  <link rel="stylesheet" href="{% static "fonts/icomoon/style.css" %}">
+  <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+  <link rel="stylesheet" href="{% static "css/jquery-ui.css" %}">
+  <link rel="stylesheet" href="{% static "css/owl.carousel.min.css" %}">
+  <link rel="stylesheet" href="{% static "css/owl.theme.default.min.css" %}">
+  <link rel="stylesheet" href="{% static "css/owl.theme.default.min.css" %}">
+  <link rel="stylesheet" href="{% static "css/jquery.fancybox.min.css" %}">
+  <link rel="stylesheet" href="{% static "css/bootstrap-datepicker.css" %}">
+  <link rel="stylesheet" href="{% static "fonts/flaticon/font/flaticon.css" %}">
+  <link rel="stylesheet" href="{% static "css/aos.css" %}">
+  <link rel="stylesheet" href="{% static "css/style.css" %}">
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
   <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
@@ -33,19 +35,19 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-   
-    
+
+
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-      
-      <div class="container-fluid"  >
-        <div class="d-flex align-items-center" >
-          <div class="site-logo mr-auto w-25" ><a href="/coursestart/">課程總覽</a></div>
+
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo mr-auto w-25"><a href="/coursestart/">課程總覽</a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#vedio" class="nav-link">課程影片</a></li>
-                <li><a href="#456" class="nav-link">留言板</a></li>
+                <li><a href="#disqus_thread" class="nav-link">留言板</a></li>
               </ul>
             </nav>
           </div>
@@ -60,131 +62,95 @@
           </div> -->
         </div>
       </div>
-      
+
     </header>
 
     <div class="intro-section single-cover" id="home-section">
-      
-    <div class="slide-1 " style="background-image: url({% static 'images/img6.JPG' %}"); " data-stellar-background-ratio="0.5" >
+
+      <div class="slide-1 " style="background-image: url({% static 'images/img6.JPG' %}"
+        ); " data-stellar-background-ratio=" 0.5">
         <div class="container">
-          <div class="row align-items-center" > 
-             <div class="col-12">
-               <div class="row justify-content-center align-items-center text-center" >
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="row justify-content-center align-items-center text-center">
                 <div class="col-lg-6">
                   <h1 data-aos="fade-up" data-aos-delay="0">第 1 節 : HTML5網頁設計建構</h1>
                   <h1 data-aos="fade-up" data-aos-delay="0">HTML概要</h1>
                   <p data-aos="fade-up" data-aos-delay="100">&bullet; 此章節共 1 個小時 / 1 份作業 &bullet; </p>
                 </div>
 
-                
-              </div> 
-            </div> 
-            
+
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
-    </div> 
-    
-    <div class="site-section" >
+    </div>
+
+    <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mb-5">
 
             <div class="mb-5" id="vedio">
-                <h2 class="mb-5">課程影片</h2>
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/mU6anWqZJcc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h2 class="mb-5">課程影片</h2>
+
+              <iframe width="100%" height="500" src="https://www.youtube.com/embed/mU6anWqZJcc" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
 
-            <div class="mb-5 " >
-                <h2 class="mb-5">文案教材</h2>
-                <p> (文字文字) </p>                
+            <div class="mb-5 ">
+              <h2 class="mb-5" id="456">文案教材</h2>
+
+              <p> (文字文字) </p>
             </div>
 
 
-            <div class="mb-5 " >
-                <h2 class="mb-5">程式練習</h2>
-                <iframe height="600px" width="155%" src="https://repl.it/@jayceli/FatalAgileTraining?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+            <div class="mb-5 ">
+              <h2 class="mb-5">程式練習</h2>
+
+              <iframe height="600px" width="155%" src="https://repl.it/@jayceli/FatalAgileTraining?lite=true"
+                scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true"
+                sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
             </div>
 
-            <div class="mb-5 " >
-                <h2 class="mb-5">作業繳交</h2>
+            <div class="mb-5 ">
+              <h2 class="mb-5">作業繳交</h2>
+
             </div>
 
 
 
             <div class="pt-5">
+
+              <h3 class="mb-5">課程討論</h3>
               <hr>
-              <h3 class="mb-5" id="456">課程交流</h3>
-              <ul class="comment-list">
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="{% static "images/person_1.jpg"%}" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>Jean Doe</h3>
-                    <div class="meta">January 9, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-                </li>
+              <div id="disqus_thread"></div>
+              <script>
 
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="{% static "images/person_1.jpg"%}" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>Jean Doe</h3>
-                    <div class="meta">January 9, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-
-                  <ul class="children">
-                    <li class="comment">
-                      <div class="vcard bio">
-                        <img src="{% static "images/person_1.jpg"%}" alt="Image placeholder">
-                      </div>
-                      <div class="comment-body">
-                        <h3>Jean Doe</h3>
-                        <div class="meta">January 9, 2018 at 2:21pm</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                        <p><a href="#" class="reply">Reply</a></p>
-                      </div>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function () { // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
+                  s.src = 'https://1-1-3.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                  by Disqus.</a></noscript>
 
 
-                      <ul class="children">
-                        <li class="comment">
-                          <div class="vcard bio">
-                            <img src="{% static "images/person_1.jpg"%}" alt="Image placeholder">
-                          </div>
-                          <div class="comment-body">
-                            <h3>Jean Doe</h3>
-                            <div class="meta">January 9, 2018 at 2:21pm</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                            <p><a href="#" class="reply">Reply</a></p>
-                          </div>
 
-                            <ul class="children">
-                              <li class="comment">
-                                <div class="vcard bio">
-                                  <img src="{% static "images/person_1.jpg"%}" alt="Image placeholder">
-                                </div>
-                                <div class="comment-body">
-                                  <h3>Jean Doe</h3>
-                                  <div class="meta">January 9, 2018 at 2:21pm</div>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                                  <p><a href="#" class="reply">Reply</a></p>
-                                </div>
-                              </li>
-                            </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-
-
-              </ul>
             </div>
 
 
@@ -192,58 +158,58 @@
           </div>
           <div class="col-lg-4 pl-lg-5">
 
-            <div class="mb-5 text-left border rounded course-instructor" >
-                <div class="mb-5 ">
-                    <h3 class="text-black">章節內容</h3>
-                    <hr>
-      
-                    <details>
-                      <summary>第 1 節 : HTML5網頁設計建構</summary>
-                      <ol>
-                      <li>HTML概要</li>
-                      <li>編寫HTML文件</li>
-                      <li>換行強調、插入圖片與連結</li>
-                      <li>表格與表單</li>
-                      </ol>
-                    </details>
-      
-                    <details>
-                      <summary>第 2 節 : CSS3標籤與使用方式</summary>
-                      <ol>
-                      <li>CSS概要</li>
-                      <li>基本屬性與選擇器使用方法</li>
-                      <li>設定網頁背景</li>
-                      <li>基本版面設計與盒子模型</li>
-                      <li>表格與表單樣式</li>
-                      </ol>
-                    </details>
-      
-                    <details>
-                      <summary>第 3 節 : 客製化個人網頁</summary>
-                      <ol>
-                      <li>下載模板</li>
-                      <li>修改個人化設計</li>
-                      </ol>
-                    </details>
-      
-                    <details>
-                      <summary>第 4 節 : 部署到Heroku</summary>
-                      <ol>
-                      <li>建立與安裝</li>
-                      <li>建置空白虛擬環境</li>
-                      <li>部署至Heroku</li>
-                      </ol>
-                    </details>
+            <div class="mb-5 text-left border rounded course-instructor">
+              <div class="mb-5 ">
+                <h3 class="text-black">章節內容</h3>
+                <hr>
 
-                    <details>
-                        <summary>學習問卷</summary>                       
-                        <ol>
-                            <li>問卷連結</li>
-                        </ol>
-                    </details>
-                    
-                   
-                  </div>
+                <details>
+                  <summary>第 1 節 : HTML5網頁設計建構</summary>
+                  <ol>
+                    <li>HTML概要</li>
+                    <li>編寫HTML文件</li>
+                    <li>換行強調、插入圖片與連結</li>
+                    <li>表格與表單</li>
+                  </ol>
+                </details>
+
+                <details>
+                  <summary>第 2 節 : CSS3標籤與使用方式</summary>
+                  <ol>
+                    <li>CSS概要</li>
+                    <li>基本屬性與選擇器使用方法</li>
+                    <li>設定網頁背景</li>
+                    <li>基本版面設計與盒子模型</li>
+                    <li>表格與表單樣式</li>
+                  </ol>
+                </details>
+
+                <details>
+                  <summary>第 3 節 : 客製化個人網頁</summary>
+                  <ol>
+                    <li>下載模板</li>
+                    <li>修改個人化設計</li>
+                  </ol>
+                </details>
+
+                <details>
+                  <summary>第 4 節 : 部署到Heroku</summary>
+                  <ol>
+                    <li>建立與安裝</li>
+                    <li>建置空白虛擬環境</li>
+                    <li>部署至Heroku</li>
+                  </ol>
+                </details>
+
+                <details>
+                  <summary>學習問卷</summary>
+                  <ol>
+                    <li>問卷連結</li>
+                  </ol>
+                </details>
+
+
+              </div>
 
             </div>
 
@@ -252,16 +218,16 @@
       </div>
     </div>
 
-    
-     
+
+
     <footer class="footer-section bg-light text-center">
       <div class="container">
         <p>Copyright ©2020 All rights reserved | 國立臺灣科技大學資管系策略資訊系統實驗室</p>
       </div>
-   </footer>
+    </footer>
 
-  
-    
+
+
   </div> <!-- .site-wrap -->
 
   <script src="{% static "js/jquery-3.3.1.min.js" %}"></script>
@@ -278,6 +244,7 @@
   <script src="{% static "js/jquery.fancybox.min.js"%}"></script>
   <script src="{% static "js/jquery.sticky.js"%}"></script>
   <script src="{% static "js/main.js"%}"></script>
-    
-  </body>
+
+</body>
+
 </html>
