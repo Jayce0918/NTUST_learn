@@ -21,5 +21,7 @@ from learning import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^',include('learning.urls')),
+   
 
 ]
+

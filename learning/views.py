@@ -94,3 +94,6 @@ def reset_password(request):
 # 留言板
 
 
+#作業牆
+
+

@@ -59,13 +59,13 @@
                 <div class="col-lg-5 ml-auto mr-auto" data-aos="fade-up" data-aos-delay="500" "row align-items-center">
                   <form action="" method="post" class="form-box">
                     {% csrf_token %}
-                    <h3 class="h4 text-black mb-4">學員登入</h3>
+                    <h3 class="h4 text-black mb-4 ">學員登入</h3>
                     <div class="form-group">
                       <input type="text" name="username" required class="form-control" placeholder="帳號">
                     <div class="form-group">
                       <input type="password" name="password" required class="form-control" placeholder="密碼">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group ">
                       <input type="submit" class="btn btn-primary btn-pill" value="登入">
                     </div>
                     <font color="red">{{ error_message }}</font>

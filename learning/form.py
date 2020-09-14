@@ -4,6 +4,7 @@ from .models import User
 from django.contrib.auth.forms import UserCreationForm, SetPasswordForm
 from django.utils.translation import gettext as _
 
+
 class RegisterForm(UserCreationForm):
     def __init__(self, *args, **kwargs):
         super(RegisterForm, self).__init__(*args, **kwargs)
@@ -33,6 +34,13 @@ class EditForm(ModelForm):
             "phone":"手機",
         }
 
-        # 留言板
+#作業圖片牆
+
+        
+
+# 留言板
+
+
+
 
 

@@ -2,6 +2,7 @@
 from django.conf.urls import url
 from . import views
 
+
 urlpatterns = [
     url(r'^$',views.home),   
     url(r'^register/',views.register),
@@ -12,4 +13,8 @@ urlpatterns = [
     url(r'^coursestart/',views.coursestart),
     url(r'^class1/',views.class1), 
     url(r'^htmlcss/',views.htmlcss),
+    #留言板
+
+
 ]
+
