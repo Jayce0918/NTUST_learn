@@ -13,7 +13,8 @@ urlpatterns = [
     url(r'^coursestart/',views.coursestart),
     url(r'^class1/',views.class1), 
     url(r'^htmlcss/',views.htmlcss),
-    #留言板
+
+    
 
 
 ]
